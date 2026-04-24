@@ -95,7 +95,7 @@ const SearchWeather = ({ onCitySelect }: { onCitySelect: (city: string) => void 
         </div>
 
         {cities.length > 0 && (
-          <div className="absolute w-full mt-2 bg-white/90 rounded-xl shadow-xl z-50">
+          <div className="absolute w-full mt-2 bg-white/40 rounded-xl shadow-xl z-50">
             {cities.map((c, i) => (
               <div
                 key={i}
